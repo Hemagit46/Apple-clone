@@ -1,0 +1,43 @@
+#sub-section2{
+    height: 85vh;
+    background-image: url(../images/middle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#sub-section2 div{
+    width: 100%;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+}
+#sub-section2 div h2{
+    font-size: 56px;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+#sub-section2 div p{
+    font-size: 27px;
+    font-weight: 400;
+    color:black;
+    text-align: center;
+}
+#sub-section2 a{
+    border: 2px solid #0071e3;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    color:white;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: 43%;
+    justify-content: center;
+}

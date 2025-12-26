@@ -1,0 +1,135 @@
+footer{
+    /* border: 2px solid red; */
+    height: 115vh;
+    width: 100%;
+    background: rgb(245, 245, 247);
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color:(0, 0, 0, 0.56);
+    min-width: 1024px;
+    text-align: start;
+    position: relative;
+    justify-content: center;
+   
+}
+footer div{
+    /* border: 2px solid blue; */
+    max-width: 980px;
+    height: inherit;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    margin: auto;
+}
+#footer1{
+    list-style: none;
+    padding: 17px 11px;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    color: rgba(0, 0, 0, 0.56);
+    padding-bottom: .8em;
+    height: 980;
+    /* padding: 80px; */
+    position: relative;
+    /* margin-bottom: 10px; */
+    border-bottom: 1px solid var(--footer-section-border-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.56);
+
+}
+#footer1 li{
+    margin: 10px;
+    word-spacing: normal;
+}
+#footer1 a{
+    color: rgba(0, 0, 0, 0.56);
+}
+#apple-nav{
+    /* border: 2px solid blueviolet; */
+    height: 52vh;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px; 
+}
+#apple-nav b{
+  color:  rgba(0, 0, 0, 0.70);
+
+}
+#apple-nav ul li{
+    /* border: 2px solid rebeccapurple; */
+    list-style: none;
+    padding: 5px;
+    cursor:pointer;
+}
+#conclusion div{
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+}
+#demo1{
+    /* border: 2px solid rgb(0, 255, 149); */
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.56);
+    color: rgba(0, 0, 0, 0.56);
+}
+#demo2{
+    position: absolute;
+     color: rgba(0, 0, 0, 0.56);
+}
+#demo3{
+    /* border: 2px solid ; */
+    position: absolute;
+    left: 35%;
+    top: 99%;
+    /* bottom: 1px; */
+    color: rgba(0, 0, 0, 0.72);
+    /* word-spacing: 10px; */
+    
+}
+#demo3 ul{
+    display: flex;
+}
+#demo3 ul>li{
+    /* border: 2px solid; */
+    list-style: none;
+    padding: 5px; cursor: pointer;
+}
+#india{
+    color: rgba(0, 0, 0, 0.72);
+    position: absolute;
+    left: 80%;
+    cursor: pointer;
+}
+
+/* apple TV */
+#apple-tv{
+    height: 75vh;
+}
+#apple-tv ul li{
+    list-style:circle;
+    /* border: 2px solid; */
+
+}
